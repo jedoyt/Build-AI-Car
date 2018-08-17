@@ -1,7 +1,5 @@
 import time
 
-# CLASSES
-# The Car class
 class Car_ai_upgrade():
 
 	def __init__(self, make, model, year):
@@ -98,6 +96,7 @@ class Car_ai_upgrade():
 		print("\nAI software installation complete!")
 		print("Self Driving Car is ready for testing.")
 		print("Progress: 100 %")
+
 # Customer Order Details:
 print("Customer Order Details:\n")
 brand_name = input("Automobile Make: ")
