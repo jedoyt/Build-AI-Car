@@ -1,6 +1,6 @@
-import time
+$import time
 
-class Car_ai_upgrade():
+$class Car_ai_upgrade():
 
 	def __init__(self, make, model, year):
 		self.make = make
