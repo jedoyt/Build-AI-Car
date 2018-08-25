@@ -1,5 +1,6 @@
 	import time
-
+# CLASSES
+# The Car class
 	class Car_ai_upgrade():
 
 		def __init__(self, make, model, year):
@@ -97,13 +98,13 @@
 			print("Self Driving Car is ready for testing.")
 			print("Progress: 100 %")
 
-	# Customer Order Details:
+# Customer Order Details:
 	print("Customer Order Details:\n")
 	brand_name = input("Automobile Make: ")
 	model_name = input("Model Name: ")
 	year_model = input("Year Model: ")
 
-	# Create the module using Car_ai_upgrade class
+# Create the module using Car_ai_upgrade class
 	customer01 = Car_ai_upgrade(brand_name, model_name, year_model)
 
 	customer01.odometer_reading = input("Enter Odometer Reading: ")
