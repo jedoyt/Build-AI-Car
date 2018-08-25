@@ -1,6 +1,6 @@
+# Build a Self-driving Car
 	import time
-# CLASSES
-# The Car class
+
 	class Car_ai_upgrade():
 
 		def __init__(self, make, model, year):
